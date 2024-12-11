@@ -97,3 +97,22 @@ Users ↔ Songs:
 
 Relationship: Many-to-Many
 Details: Users associate with songs indirectly via their playlists.
+
+
+
+
+Database Queries Overview
+The project involves executing various SQL queries to manage and retrieve data from the underlying database. These queries are categorized into different types, as listed below:
+
+Data Retrieval Queries: These queries are used to fetch specific data from various tables in the database. Examples include fetching artists by name, retrieving songs from a playlist, or finding albums containing specific keywords like "Hits".
+
+Aggregation Queries: These queries are used to calculate counts, totals, or other aggregated values. For instance, we use aggregation queries to count the number of songs in each playlist or calculate the total number of songs in a specific playlist.
+
+Update and Insert Queries: These queries allow modification and addition of data. Examples include updating user information, such as passwords, or inserting new playlists for users.
+
+Join Queries: These are used to retrieve related data from multiple tables by joining them based on common columns, such as displaying the artist's name along with their albums and songs.
+
+String and Date Functions: Some queries utilize SQL functions like LIKE, INSTR, and SUBSTRING to manipulate strings or filter data based on dates (e.g., retrieving users born after a specific date or searching for playlists with a specific name pattern).
+
+Subqueries: Several queries include subqueries to fetch specific data, such as finding the user who created a particular playlist or getting songs within a specific album.
+
